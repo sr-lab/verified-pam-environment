@@ -44,8 +44,13 @@ cd coq-8.6
 make
 sudo make install
 
+# Clean up.
+cd ..
+rm coq-8.6.tar.gz
+rm -rf coq-8.6
+
 # Install Haskell compiler.
-sudo apt-get install ghc
+sudo apt-get install ghc -y
 
 # Install PAM sources.
-sudo apt-get install libpam0g-dev
+sudo apt-get install libpam0g-dev -y
