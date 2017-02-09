@@ -18,3 +18,11 @@ vagrant ssh
 ```
 
 To access the box over SSH.
+
+## Details
+The box is running Ubuntu "Xenial" 16.04 LTS with:
+
+* OCaml, OPAM and a bunch of associated libraries/tools
+* The Glasgow Haskell Compiler (GHC)
+* Coq 8.6 (built from source)
+* Development files for PAM (`libpam0g-dev`)
