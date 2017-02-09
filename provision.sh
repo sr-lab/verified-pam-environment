@@ -1,11 +1,11 @@
 #!/bin/bash 
 
-# Adjust to fastest mirrors.
+# Adjust to closest mirrors.
 sudo sed -i -e 's/http:\/\/us.archive/mirror:\/\/mirrors/' -e 's/\/ubuntu\//\/mirrors.txt/' /etc/apt/sources.list
 
 # Standard stuff for fresh system.
 sudo apt-get update -y
-sudo apt-get upgrade -y -qq
+sudo apt-get upgrade -y -qq # The quiet flag suppresses annoying GRUB interactive.
 
 # We need this to add the OPAM repository.
 sudo apt-get install -y software-properties-common python-software-properties
