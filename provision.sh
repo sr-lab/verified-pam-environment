@@ -49,3 +49,9 @@ sudo apt-get install ghc -y
 
 # Install PAM sources.
 sudo apt-get install libpam0g-dev -y
+
+# Install Cracklib (the PAM module).
+sudo apt-get install libpam-cracklib -y
+
+# Install Libcrack (the password library).
+sudo apt-get install libcrack2-dev -y
