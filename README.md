@@ -26,3 +26,5 @@ The box is running Ubuntu "Xenial" 16.04 LTS with:
 * The Glasgow Haskell Compiler (GHC)
 * Coq 8.6 (built from source)
 * Development files for PAM (`libpam0g-dev`)
+* PAM Cracklib, which doesn't come with Ubuntu Xenial out-of-the-box (`libpam-cracklib`)
+* Libcrack, which PAM Cracklib depends on (`libcrack2-dev`)
