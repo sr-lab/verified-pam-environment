@@ -55,3 +55,6 @@ sudo apt-get install libpam-cracklib -y
 
 # Install Libcrack (the password library).
 sudo apt-get install libcrack2-dev -y
+
+# Install Expect
+sudo apt-get install expect -y
